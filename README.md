@@ -107,9 +107,11 @@ stateDiagram-v2
 - LCD 백라이트는 하드웨어 결선상 상시 전원이라 소프트웨어로 제어할 수 없습니다.
 - 따라서 이 수치는 시스템 전체가 아닌 "절전 시 차단되는 부품 라인"의 전류 변화를 보여주는 것입니다.
 
-측정 사진:![Uploading 20260712_222106.jpg…]()
+측정 사진: 
+대기 상태
 <img width="1848" height="1759" alt="20260712_222157" src="https://github.com/user-attachments/assets/72840671-82a6-45cb-8f65-5464f2902097" />
-  (대기 상태 / 절전 상태 / 측정 배선)
+절전상태
+<img width="1847" height="1648" alt="20260712_222106" src="https://github.com/user-attachments/assets/78c6c719-a998-46ea-8ef2-df188cee338c" />
 
 ## 센서 캘리브레이션
 
