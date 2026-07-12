@@ -177,10 +177,10 @@ stateDiagram-v2
 arduino-washer-safety-system/
 ├── washer_safety_control/
 │   └── washer_safety_control.ino
-├── docs/                # 측정 사진, 배선 사진
-├── README.md
+├── .gitattributes
+├── .gitignore
 ├── LICENSE
-└── .gitattributes
+└── README.md
 ```
 
 ## License
