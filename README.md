@@ -52,7 +52,7 @@ https://youtu.be/SXahQ8hvf9E
 | A2~A5 | ULN2003 IN1~IN4 |
 
 ## 회로도
-<img width="1236" height="746" alt="image" src="https://github.com/user-attachments/assets/6456b078-0eec-4bea-a993-75b71ef8fc4a" />
+<img width="1136" height="650" alt="image" src="https://github.com/user-attachments/assets/a4f37483-7f1b-41bf-a7b5-0789ec1fca5e" />
 
 
 ## 주요 안전 기능
