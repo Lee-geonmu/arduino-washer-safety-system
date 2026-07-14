@@ -51,27 +51,9 @@ https://youtu.be/SXahQ8hvf9E
 | A1 | 버튼 3개 (저항 래더) |
 | A2~A5 | ULN2003 IN1~IN4 |
 
-## 상태 머신
+## 회로도
+<img width="1236" height="746" alt="image" src="https://github.com/user-attachments/assets/6456b078-0eec-4bea-a993-75b71ef8fc4a" />
 
-```mermaid
-stateDiagram-v2
-    [*] --> IDLE
-    IDLE --> FILLING : 버튼1 (문 닫힘일 때만)
-    IDLE --> SLEEPING : 버튼2
-    SLEEPING --> IDLE : 버튼2
-    FILLING --> WASHING : 목표 수위 도달 (2초 표시 후)
-    FILLING --> ALARM : 급수 타임아웃 20s
-    WASHING --> SPINNING : 10s 경과
-    SPINNING --> DONE : 8s 경과
-    FILLING --> PAUSED : 문 열림 2s+ / 버튼3
-    WASHING --> PAUSED : 문 열림 2s+ / 버튼3
-    SPINNING --> PAUSED : 문 열림 2s+ / 진동 감지 / 버튼3
-    PAUSED --> FILLING : 버튼3 (문 닫힘)
-    PAUSED --> WASHING : 버튼3 (문 닫힘)
-    PAUSED --> SPINNING : 버튼3 (문 닫힘, 진동 원인이면 처음부터)
-    DONE --> IDLE : 버튼
-    ALARM --> IDLE : 버튼
-```
 
 ## 주요 안전 기능
 
